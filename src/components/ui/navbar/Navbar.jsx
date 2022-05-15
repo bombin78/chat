@@ -18,8 +18,10 @@ const Navbar = () => {
                 Выйти
             </MyButton>
             <div className={classes.links}>
-                <NavLink to='/about'>О сайте</NavLink>
-                <NavLink to='/posts'>Посты</NavLink>
+                <NavLink className={classes.link} to='/about'>О сайте</NavLink>
+                <NavLink className={classes.link} to='/posts'>Посты</NavLink>
+                <NavLink className={classes.link} to='/redux'>Redux</NavLink>
+                <NavLink className={classes.link} to='/redux-saga'>Redux-saga</NavLink>
             </div>
         </div>
     );

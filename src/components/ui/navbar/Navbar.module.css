@@ -11,3 +11,13 @@
 .links {
     margin-left: auto;
 }
+
+.link {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+
+.link:hover {
+    text-decoration: underline;
+}
